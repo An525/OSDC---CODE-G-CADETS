@@ -32,6 +32,8 @@ echo <<<EOT
 <nav>
 <a href="index.php">Home</a>
 <a href="index.php?page=products">Products</a>
+<a href="index.php?page=properties">Properties</a>
+<a href="index.php?page=recipes">Recipes</a>
 </nav>
 <div class="link-icons">
 <a href="index.php?page=cart">
