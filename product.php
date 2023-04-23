@@ -33,6 +33,15 @@ exit("Product doesn't exist!");
 <input type="hidden" id="product_id" name="product_id" value="<?=$product['id']?>">
 <input type="submit" value="Add To Cart" name="Add_To_Cart">
 </form>
+<!--adding link to recipes for this ingredient-->
+<a href="index.php?page=recipesfilter&id=<?=$product['id']?>" class="product" style="text-decoration:none">
+<br><form>
+    <div style="background: grey; text-align:center;border: 0;width: 400px;padding: 12px 0;text-transform: uppercase;font-size: 14px;
+font-weight: bold;border-radius: 5px;cursor: pointer;">
+<h3 style="color: #FFFFFF;">View Related Recipes</h3>
+</div>
+</form>
+</a>
 <div class="description">
 <?=$product['desc']?>
 </div>
