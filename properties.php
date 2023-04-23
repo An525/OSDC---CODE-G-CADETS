@@ -15,8 +15,8 @@ $total_properties = mysqli_num_rows($stmt);
 <?=template_header('Properies')?>
 
 <div class="products content-wrapper">
-<h1>Properties</h1>
-<p><?=$total_properties?> Properties</p>
+<h1>Wellness</h1>
+<p><?=$total_properties?> Categories</p>
 <div class="products-wrapper">
 <?php foreach ($properties as $property): ?>
 <a href="index.php?page=property&pid=<?=$property['pid']?>&pname=<?=$property['pname']?>" class="product">
