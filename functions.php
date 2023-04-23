@@ -36,7 +36,7 @@ echo <<<EOT
 <a href="index.php?page=recipes">Recipes</a>
 </nav>
 <div class="link-icons">
-<a href="index.php?page=cart">
+<a href="index.php?page=cart" title="Cart">
 <i class="fas fa-shopping-cart"></i>
 <span>$num_items_in_cart</span>
 </a>        
