@@ -28,7 +28,7 @@ echo <<<EOT
 <body>
 <header>
 <div class="content-wrapper">
-<h1>AyurvedaGeeks</h1>
+<a href="index.php" style='text-decoration:none;'><h1>AyurvedaGeeks</h1></a>
 <nav>
 <a href="index.php">Home</a>
 <a href="index.php?page=products">Products</a>
