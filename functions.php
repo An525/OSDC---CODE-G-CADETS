@@ -30,12 +30,16 @@ echo <<<EOT
 <div class="content-wrapper">
 <a href="index.php" style='text-decoration:none;'><h1>AyurvedaGeeks</h1></a>
 <nav>
-<a href="index.php">Home</a>
+<a href="index.php?page=home">Home</a>
 <a href="index.php?page=products">Products</a>
 <a href="index.php?page=properties">Wellness</a>
 <a href="index.php?page=recipes">Recipes</a>
 </nav>
 <div class="link-icons">
+<!--logout here-->
+<a href="index.php?page=login" title="Log Out">
+<i class="fas fa-sign-out-alt"></i>
+</a>
 <a href="index.php?page=cart" title="Cart">
 <i class="fas fa-shopping-cart"></i>
 <span>$num_items_in_cart</span>
